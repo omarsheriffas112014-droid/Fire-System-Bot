@@ -302,10 +302,10 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "اضغط على الزرار الي تحت اسمو التحقق عشان تفعل حسابك في السيرفر",
 
     // Text on the verification button.
-    defaultButtonText: "Verify",
+    defaultButtonText: "تحقق",
 
     // Automatic verification behavior.
     autoVerify: {
@@ -372,13 +372,13 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      " {memberCount} متنساش تقرا القوانين عشان بتاخدش بان من اول يوم احنا دلوقتي بقا رقم عيلتنا  {user} منورنا يا",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1545465941364703273,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
